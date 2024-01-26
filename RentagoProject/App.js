@@ -30,7 +30,7 @@ return (
                 animation: 'slide_from_right', // Set the animation option
             }}
         >
-
+helloworld
         </Stack.Navigator>
     </NavigationContainer>
     );
