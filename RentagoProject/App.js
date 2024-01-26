@@ -30,7 +30,21 @@ return (
                 animation: 'slide_from_right', // Set the animation option
             }}
         >
-helloworld
+            <Stack.Screen name="Test" component={Test} />
+            <Stack.Screen name="Sample" component={sample} />
+            <Stack.Screen name="Login" component={LoginPage} />
+            <Stack.Screen name="Home" component={HomePage} />
+            <Stack.Screen name="GoogleMapRegister" component={GoogleMapRegisterSelectPlace} />
+            <Stack.Screen name="GoogleMapRegisterInformation" component={GoogleMapRegisterInformation} />
+            <Stack.Screen name="GoogleMapRegisterImageConfirmation" component={GoogleMapRegisterImageConfirmation} />
+            <Stack.Screen name="GoogleMapRegisterImage" component={GoogleMapRegisterImage} />
+            <Stack.Screen name="GoogleMapSearch" component={GoogleMapSearch}/>
+            <Stack.Screen name="UserProfile" component={UserProfilePage}/>
+            <Stack.Screen name="UserProfileSetting" component={UserProfileSettingsPage}/> 
+            <Stack.Screen name="SignUp" component={SignupPage}/>
+            <Stack.Screen name="SignUpTermsAndCondtion" component={SignupTermsAndConditionPage}/>
+            <Stack.Screen name="SignupConfirmation" component={SignupConfirmationPage}/>
+            <Stack.Screen name="AboutUs" component={AboutUsPage}/>
         </Stack.Navigator>
     </NavigationContainer>
     );
